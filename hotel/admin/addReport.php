@@ -38,46 +38,46 @@ if(isset($_REQUEST[ 'submit']))
 <body>
     <div class="container">
         <div class="well">
-            <h2>Generate Staff Report</h2>
+            <h2>Generate Room Report</h2>
             <hr>
             <form action="" method="post" name="room_category">
                 <div class="form-group">
-                    <label for="roomname">Staff Name:</label>
-                    <input type="text" class="form-control" name="roomname" placeholder="Enter staff name" required>
+                    <label for="roomname">Room Type Name:</label>
+                    <input type="text" class="form-control" name="roomname" placeholder="Name" required>
                 </div>
                  <div class="form-group">
-                    <label for="qty">Age:</label>&nbsp;
+                    <label for="qty">No of Guests in Room:</label>&nbsp;
                     <select name="room_qnty">
-                      <option value="10-20">10-20</option>
-                      <option value="20-30">20-30</option>
-                      <option value="30-40">30-40</option>	
-                      <option value="40-50">40-50</option>				  
-                      <option value="50-60">50-60</option>				  					  
-                    </select>
-                </div>
-                <div class="form-group">
-                    <label for="bed">Department:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    <select name="no_bed">
                       <option value="1">1</option>
                       <option value="2">2</option>
                       <option value="3">3</option>
                       <option value="4">4</option>
-                      <option value="5">5</option>					  
+                      <option value="5">5</option>
                     </select>
                 </div>
                 <div class="form-group">
-                    <label for="bedtype">Gender:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <label for="bed">No of Bed:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <select name="no_bed">
+                      <option value="1">1</option>
+                      <option value="2">2</option>
+					  <option value="2">3</option>
+					  <option value="2">4</option>
+					  <option value="2">5</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="bedtype">Room Type:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                    <select name="bedtype">
-                      <option value="single">male</option>
-                      <option value="double">female</option>
+                      <option value="single">single</option>
+                      <option value="double">double</option>
                     </select>
                 </div>
                 <div class="form-group">
-                    <label for="Facility">Staff current role(s):</label>
+                    <label for="Facility">Facilities Available</label>
                     <textarea class="form-control" rows="5" name="facility"></textarea>
                 </div>
                <div class="form-group">
-                    <label for="price">Any additional notes:</label>
+                    <label for="price">Price Per Night:</label>
                     <input type="text" class="form-control" name="price" required>
                 </div>
                 <button type="submit" class="btn btn-lg btn-primary button" name="submit" value="Add Room">Add</button>

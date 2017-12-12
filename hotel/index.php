@@ -71,6 +71,13 @@
                 </ul>
             </div>
         </nav>
+		
+		<div class="row" style="color: #ffbb2b">
+           <div style="text-align:center; class="col-md-4 wellfix">
+             <h2><strong>Welcome to Hotel Delonix Regia!</strong></h2><hr>
+           </div>
+          <div class="col-md-4"></div>            
+        </div>
 
      
         <div class="jumbotron">
@@ -95,18 +102,6 @@
               
             </div>  
         </div>
-        <div class="row" style="color: #ffbb2b">
-            <div class="col-md-4 wellfix">
-              <h4><strong>Contact Us</strong></h4><hr>
-              Address : East West University<br>
-              Mail : mamunwithbug@gmail.com <br>
-            </div>
-            <div class="col-md-4"></div>            
-        </div>
-        
-
-
-
     </div>
     
     

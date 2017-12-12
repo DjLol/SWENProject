@@ -101,8 +101,8 @@ if(isset($_GET['q']))
                 <h4>Inventory Manager</h4>
                 <hr>               
                    <ul><a href="admin/additem.php">Add Inventory Category</a></ul>
-                   <ul><a href="show_room_cat.php">Show All Room Category</a></ul>
-                   <ul><a href="show_room_cat.php">Edit Room Category</a></ul>               
+                   <ul><a href="show_room_cat.php">Show All Item Category</a></ul>
+                   <ul><a href="show_room_cat.php">Edit Item Category</a></ul>               
             </div>
             <div class="col-md-3"></div>
         </div>
@@ -114,8 +114,8 @@ if(isset($_GET['q']))
                 <hr>
                 
                     <ul><a href="admin/addreport.php">Add Report</a></ul>
-                    <ul><a href="show_room_cat.php">Show All Room Category</a></ul>
-                    <ul><a href="show_room_cat.php">Edit Room Category</a></ul>
+                    <ul><a href="show_room_cat.php">Show All Reports Category</a></ul>
+                    <ul><a href="show_room_cat.php">Edit Reports Category</a></ul>
                 
             </div>
             <div class="col-md-3"></div>
@@ -137,9 +137,11 @@ if(isset($_GET['q']))
         <div class="row">
            <div class="col-md-3"></div>
             <div class="col-md-6 well">
-                <h4>Add Manager</h4>
+                <h4>Staff Manager</h4>
                 <hr>             
-                   <ul><a href="admin/registration.php">Add Manager</a></ul>               
+                   <ul><a href="admin/registration.php">Add Staff</a></ul>
+				   <ul><a href="admin/registration.php">Show All Staff List</a></ul> 
+				   <ul><a href="admin/registration.php">Edit Staff Roles</a></ul> 				   
             </div>
             <div class="col-md-3"></div>
         </div>

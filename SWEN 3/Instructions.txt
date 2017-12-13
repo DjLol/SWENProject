@@ -1,0 +1,11 @@
+Hello! To whom it may concern, the program files are the in the "hotel" file directory. To run this program, you would need to install XAMPP.
+
+1. Install XAMPP
+2. Copy and Paste the "hotel" folder into C:/xampp/htdocs
+3. Run XAMPP
+4. Start the MySQL and Apache servers.
+5. Start your web browser
+6. Type in "localhost/hotel"
+7. Start a new tab and type in "localhost/phpmyadmin"
+8. Create a new database titled "hotel" and Import the database "hotel.sql"
+9. Click back on the localhost/hotel tab, the program should run fine.
